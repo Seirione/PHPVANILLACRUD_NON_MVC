@@ -11,7 +11,7 @@ try {
         throw new Exception("Database Connection Failed");
     }
     
-    echo '<script>console.log("Worked!!");</script>';
+
     
 } catch (Exception $e) {
     echo '<script>console.log("The Error is:'.$e->getMessage().'");</script>';
